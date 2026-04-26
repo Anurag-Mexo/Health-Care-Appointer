@@ -1,5 +1,5 @@
 import { addDays, format, isSameDay } from 'date-fns';
-import { useState } from 'react';
+
 import { cn } from '../../../lib/utils';
 import type { Doctor } from '../../../types';
 

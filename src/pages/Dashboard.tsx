@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Calendar, Clock, MapPin, MoreVertical, CheckCircle2, XCircle, Star } from 'lucide-react';
+import { Calendar, Clock, CheckCircle2, XCircle, Star } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { format, parseISO } from 'date-fns';
 import { useAppStore } from '../store/useAppStore';
 import { Button } from '../components/ui/Button';
-import { Badge } from '../components/ui/Badge';
+
 import { Modal } from '../components/ui/Modal';
 import TimeSlotGrid from '../components/features/booking/TimeSlotGrid';
 import type { Appointment } from '../types';

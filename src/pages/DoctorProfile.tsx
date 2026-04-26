@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, Star, Clock, MapPin, Award, CheckCircle, CreditCard, Lock } from 'lucide-react';
+import { ArrowLeft, Star, Clock, CheckCircle, CreditCard, Lock } from 'lucide-react';
 import { format } from 'date-fns';
 import toast from 'react-hot-toast';
 import { useAppStore } from '../store/useAppStore';
 import TimeSlotGrid from '../components/features/booking/TimeSlotGrid';
 import { Modal } from '../components/ui/Modal';
 import { Button } from '../components/ui/Button';
-import { Badge } from '../components/ui/Badge';
+
 import { Input } from '../components/ui/Input';
 
 export default function DoctorProfile() {
